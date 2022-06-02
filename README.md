@@ -1,73 +1,22 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+A left rotation operation on an array of size  shifts each of the array's elements  unit to the left. Given an integer, , rotate the array that many steps left and return the result.
 
-# Project Name
+Example
+d = 2
+arr = [1,2,3,4,5]
 
-> Description the project.
+After 2 rotations, arr= [3,4,5,1,2] .
 
+### Function Description
+> Complete the rotateLeft function in the editor below.
+> rotateLeft has the following parameters:
 
-## Built With
+- int d: the amount to rotate by
+- int arr[n]: the array to rotate
 
-- Major languages
-- Frameworks
-- Technologies used
+> Returns
+- int[n]: the rotated array
 
-## Live Demo (if available)
+### Input Format
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+The first line contains two space-separated integers that denote , the number of integers, and d, the number of left rotations to perform.
+The second line contains  space-separated integers that describe arr[].
